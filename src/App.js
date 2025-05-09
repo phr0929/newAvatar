@@ -1,5 +1,6 @@
 import './App.css';
-import Avatar from './Avatar';
+import Avatar2 from './Avatar';
+import Avatar from './Avatar2';
 import Main from './Main';
 import React, {Component, useEffect} from 'react';
 import { HashRouter, Routes ,Route, Router,BrowserRouter} from 'react-router-dom'

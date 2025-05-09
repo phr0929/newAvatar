@@ -1,6 +1,5 @@
 import './main.css';
 
-import save from './resource/ic_save.svg'
 import reset from './resource/ic_cancel.svg'
 import back from './resource/ic_back.svg'
 import max from './resource/ic_max.svg'
@@ -263,7 +262,7 @@ const Avatar = (() => {
  
   useEffect(()=>{
     const handleSetInit = ()=>{   
-      let initList = [0,0,0,0,0]
+      let initList = [0,0,0,0,0,0]
       window.localStorage.setItem("myAvatarList",JSON.stringify(initList))
       return JSON.stringify([])
     }
@@ -295,7 +294,7 @@ const Avatar = (() => {
     setToast(true)
   }
   const handleInit = () => {
-    let item = [0,0,0,0,0]   
+    let item = [0,0,0,0,0,0]   
     setMyAvatar(item) 
   }
   const handleBack = () => {  
