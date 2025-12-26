@@ -265,7 +265,7 @@ const Avatar2 = (() => {
 
       <div style={{display:toast?'flex':'none'}} className='toast' onClick={()=>setToast(false)}>
         <div className='toastBox'>
-         코디가 저장되었습니다
+         코디가 저장되었습니다.
         </div>
       </div>
 
